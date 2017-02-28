@@ -2,9 +2,8 @@
 
 start:
 	// arithmetic and logical instructions
-	ldi r16,120
+	ldi r16,60
 	ldi r17,8
-	ldi r18,77
 	add r17,r16
 	adc r17,r16
 	sub r17, r16

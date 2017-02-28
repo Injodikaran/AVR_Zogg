@@ -1,5 +1,5 @@
-set -tmpdir "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/xst/projnav.tmp"
-set -xsthdpdir "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/xst"
+set -tmpdir "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/xst/projnav.tmp"
+set -xsthdpdir "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/xst"
 run -compileonly yes
 -p xc7z010-1-clg400
 -top register_file

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/RepositoryAvr/sequencer.vhd";
+static const char *ng0 = "//fs003/stud/jinjodikaran/eigene_dateien/GitHub/AVR/sequencer.vhd";
 extern char *IEEE_P_2592010699;
 extern char *IEEE_P_3620187407;
 
@@ -107,7 +107,7 @@ static void work_a_0898398202_3212880686_p_1(char *t0)
 LAB0:    xsi_set_current_line(34, ng0);
     t2 = (t0 + 1776U);
     t3 = *((char **)t2);
-    t2 = (t0 + 5916U);
+    t2 = (t0 + 6300U);
     t4 = ieee_p_3620187407_sub_436279890_3965413181(IEEE_P_3620187407, t1, t3, t2, 1);
     t5 = (t1 + 12U);
     t6 = *((unsigned int *)t5);

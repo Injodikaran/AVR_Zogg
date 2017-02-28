@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "D:/RepositoryAvr/cpu_tb_isim_beh.exe" -prj "D:/RepositoryAvr/cpu_tb_beh.prj" "work.cpu_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "M:/eigene_dateien/GitHub/AVR/cpu_tb_isim_beh.exe" -prj "M:/eigene_dateien/GitHub/AVR/cpu_tb_beh.prj" "work.cpu_tb" 

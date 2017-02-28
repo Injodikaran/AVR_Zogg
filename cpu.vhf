@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : cpu.vhf
--- /___/   /\     Timestamp : 02/28/2017 13:55:41
+-- /___/   /\     Timestamp : 02/28/2017 14:02:09
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family zynq -flat -suppress -vhdl D:/RepositoryAvr/cpu.vhf -w D:/RepositoryAvr/cpu.sch
+--Command: sch2hdl -intstyle ise -family zynq -flat -suppress -vhdl "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.vhf" -w "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.sch"
 --Design Name: cpu
 --Device: zynq
 --Purpose:

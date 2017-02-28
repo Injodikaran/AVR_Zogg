@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/RepositoryAvr/cpu_tb.vhd";
+static const char *ng0 = "//fs003/stud/jinjodikaran/eigene_dateien/GitHub/AVR/cpu_tb.vhd";
 
 
 

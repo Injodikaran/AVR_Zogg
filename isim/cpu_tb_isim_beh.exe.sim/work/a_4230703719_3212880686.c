@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/RepositoryAvr/instruction_register.vhd";
+static const char *ng0 = "//fs003/stud/jinjodikaran/eigene_dateien/GitHub/AVR/instruction_register.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -69,7 +69,7 @@ LAB3:    t1 = (t0 + 4336);
 
 LAB1:    return;
 LAB2:    xsi_set_current_line(32, ng0);
-    t1 = (t0 + 6686);
+    t1 = (t0 + 7138);
     t6 = (t0 + 4448);
     t7 = (t6 + 56U);
     t8 = *((char **)t7);

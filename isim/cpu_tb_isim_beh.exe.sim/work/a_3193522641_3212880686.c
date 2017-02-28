@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/RepositoryAvr/progmem.vhd";
+static const char *ng0 = "//fs003/stud/jinjodikaran/eigene_dateien/GitHub/AVR/progmem.vhd";
 extern char *IEEE_P_3620187407;
 
 int ieee_p_3620187407_sub_514432868_3965413181(char *, char *, char *);
@@ -49,7 +49,7 @@ LAB0:    xsi_set_current_line(20, ng0);
     t2 = *((char **)t1);
     t1 = (t0 + 1032U);
     t3 = *((char **)t1);
-    t1 = (t0 + 5108U);
+    t1 = (t0 + 5388U);
     t4 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t3, t1);
     t5 = (t4 - 0);
     t6 = (t5 * 1);

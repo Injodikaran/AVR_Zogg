@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 2.11 secs
+Total CPU time to Xst completion: 2.01 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 2.11 secs
+Total CPU time to Xst completion: 2.03 secs
  
 --> Reading design: cpu.prj
 
@@ -105,25 +105,25 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:\RepositoryAvr\status_register.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\status_register.vhd" into library work
 Parsing entity <status_register>.
 Parsing architecture <Behavioral> of entity <status_register>.
-Parsing VHDL file "D:\RepositoryAvr\sequencer.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\sequencer.vhd" into library work
 Parsing entity <sequencer>.
 Parsing architecture <Behavioral> of entity <sequencer>.
-Parsing VHDL file "D:\RepositoryAvr\registers.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\registers.vhd" into library work
 Parsing entity <register_file>.
 Parsing architecture <Behavioral> of entity <register_file>.
-Parsing VHDL file "D:\RepositoryAvr\progmem.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\progmem.vhd" into library work
 Parsing entity <ProgMemSimul>.
 Parsing architecture <Behavioral> of entity <progmemsimul>.
-Parsing VHDL file "D:\RepositoryAvr\instruction_register.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\instruction_register.vhd" into library work
 Parsing entity <instruction_register>.
 Parsing architecture <Behavioral> of entity <instruction_register>.
-Parsing VHDL file "D:\RepositoryAvr\alu.vhd" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\alu.vhd" into library work
 Parsing entity <alu>.
 Parsing architecture <Behavioral> of entity <alu>.
-Parsing VHDL file "D:\RepositoryAvr\cpu.vhf" into library work
+Parsing VHDL file "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" into library work
 Parsing entity <cpu>.
 Parsing architecture <BEHAVIORAL> of entity <cpu>.
 
@@ -140,26 +140,26 @@ Elaborating entity <instruction_register> (architecture <Behavioral>) from libra
 Elaborating entity <ProgMemSimul> (architecture <Behavioral>) with generics from library <work>.
 
 Elaborating entity <register_file> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "D:\RepositoryAvr\registers.vhd" Line 73. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\registers.vhd" Line 73. Case statement is complete. others clause is never selected
 
 Elaborating entity <sequencer> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <status_register> (architecture <Behavioral>) from library <work>.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 95. All outputs of instance <aluu> of block <alu> are unconnected in block <cpu>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 105. All outputs of instance <instr_reg> of block <instruction_register> are unconnected in block <cpu>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 111. All outputs of instance <programmem> of block <ProgMemSimul> are unconnected in block <cpu>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 115. All outputs of instance <registers> of block <register_file> are unconnected in block <cpu>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 123. All outputs of instance <sequ> of block <sequencer> are unconnected in block <cpu>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\RepositoryAvr\cpu.vhf" line 128. All outputs of instance <stat_reg> of block <status_register> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 95. All outputs of instance <aluu> of block <alu> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 105. All outputs of instance <instr_reg> of block <instruction_register> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 111. All outputs of instance <programmem> of block <ProgMemSimul> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 115. All outputs of instance <registers> of block <register_file> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 123. All outputs of instance <sequ> of block <sequencer> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 128. All outputs of instance <stat_reg> of block <status_register> are unconnected in block <cpu>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <cpu>.
-    Related source file is "D:\RepositoryAvr\cpu.vhf".
-INFO:Xst:3210 - "D:\RepositoryAvr\cpu.vhf" line 128: Output port <zero_out> of the instance <stat_reg> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\RepositoryAvr\cpu.vhf" line 128: Output port <negative_out> of the instance <stat_reg> is unconnected or connected to loadless signal.
+    Related source file is "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf".
+INFO:Xst:3210 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 128: Output port <zero_out> of the instance <stat_reg> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\fs003\stud\jinjodikaran\eigene_dateien\GitHub\AVR\cpu.vhf" line 128: Output port <negative_out> of the instance <stat_reg> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <cpu> synthesized.
@@ -285,12 +285,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.99 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.85 secs
  
 --> 
 
-Total memory usage is 441724 kilobytes
+Total memory usage is 426104 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    6 (   0 filtered)

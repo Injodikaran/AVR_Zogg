@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="34">
-<DesignStatistics TimeStamp="Tue Feb 28 13:57:01 2017"><group name="NetStatistics">
+<DeviceUsageSummary rev="35">
+<DesignStatistics TimeStamp="Tue Feb 28 15:10:32 2017"><group name="NetStatistics">
 <item name="NumNets_Active" rev="33">
 <attrib name="value" value="4"/></item>
 </group>
@@ -16,15 +16,15 @@
 <attrib name="value" value="1"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="34">
+<item name="AGG_BONDED_IO" rev="35">
 <attrib name="value" value="2"/></item>
-<item name="AGG_IO" rev="34">
+<item name="AGG_IO" rev="35">
 <attrib name="value" value="2"/></item>
-<item name="AGG_LOCED_IO" rev="34">
+<item name="AGG_LOCED_IO" rev="35">
 <attrib name="value" value="2"/></item>
-<item name="NUM_BONDED_IOB33" rev="34">
+<item name="NUM_BONDED_IOB33" rev="35">
 <attrib name="value" value="2"/></item>
-<item name="NUM_LOCED_IOB33" rev="34">
+<item name="NUM_LOCED_IOB33" rev="35">
 <attrib name="value" value="2"/></item>
 </group>
 </DesignStatistics>
@@ -451,14 +451,6 @@
 <item name="1" rev="2">
 <attrib name="value" value="21"/></item>
 </group>
-<group name="SLICEL_XORF">
-<item name="0" rev="2">
-<attrib name="value" value="75"/></item>
-<item name="1" rev="2">
-<attrib name="value" value="75"/></item>
-<item name="O" rev="2">
-<attrib name="value" value="75"/></item>
-</group>
 <group name="SLICEL_FFX">
 <item name="CE" rev="2">
 <attrib name="value" value="214"/></item>
@@ -470,6 +462,14 @@
 <attrib name="value" value="318"/></item>
 <item name="SR" rev="2">
 <attrib name="value" value="318"/></item>
+</group>
+<group name="SLICEL_XORF">
+<item name="0" rev="2">
+<attrib name="value" value="75"/></item>
+<item name="1" rev="2">
+<attrib name="value" value="75"/></item>
+<item name="O" rev="2">
+<attrib name="value" value="75"/></item>
 </group>
 <group name="SLICEL_FFY">
 <item name="CE" rev="2">

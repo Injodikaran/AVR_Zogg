@@ -34,7 +34,7 @@ begin
 		reg_r_adr <= instruction(9) & instruction(3 downto 0);
 		constant_value <= "XXXXXXXX";
 		tempOpCode := OpOther;
-		if c
+		if instruction(15 downto 12) = "1110" then 
 			tempOpCode := OpLDI;
 			constant_value <= instruction(11 downto 8) & instruction(3 downto 0);
 			reg_d_adr <= "1" & instruction(7 downto 4);
@@ -42,10 +42,12 @@ begin
 	 
 		reg_d_wr <= 
 			instruction(15 downto 10) = "000011" or -- add
-			instruction(15 downto 10) = "000111" or-- adc
-			tempOpCode = OpLDI; --ldi
-
-	 
+			instruction(15 downto 10) = "000111" or -- adc
+			instruction(15 downto 10) = "000110" or -- sub
+			instruction(15 downto 10) = "001010" or -- or
+			(instruction(15 downto 10) = "100101" and instruction(3 downto 0) = "1010") or -- dec
+			(instruction(15 downto 10) = "100101" and instruction(3 downto 0) = "0011") or  -- inc
+			tempOpCode =  OpLDI;-- ldi
 		opcode <= tempOpCode;
 	end process instruction_decoder;
 

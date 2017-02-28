@@ -6,8 +6,8 @@ Command Line:
 -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc
 cpu.ngd
 
-Reading NGO file "D:/RepositoryAvr/cpu.ngc" ...
-Loading design module "D:\RepositoryAvr/cpu.ngc"...
+Reading NGO file "M:/eigene_dateien/GitHub/AVR/cpu.ngc" ...
+Loading design module "M:\eigene_dateien\GitHub\AVR/cpu.ngc"...
 WARNING:NgdBuild:578 - Design contains no instances.
 Gathering constraint information from source properties...
 Done.
@@ -30,7 +30,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   1
 
-Total memory usage is 255032 kilobytes
+Total memory usage is 254484 kilobytes
 
 Writing NGD file "cpu.ngd" ...
 Total REAL time to NGDBUILD completion:  10 sec
