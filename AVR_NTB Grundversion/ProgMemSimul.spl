@@ -1,0 +1,5 @@
+[Inputs]
+=address[7:0]=
+[Outputs]
+=instr_code_out[15:0]=
+[BiDir]

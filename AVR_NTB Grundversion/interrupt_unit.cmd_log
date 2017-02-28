@@ -1,0 +1,22 @@
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+ngdbuild -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-5 "interrupt_unit.ngc" interrupt_unit.ngd
+map -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr off -k 4 -c 100 -o interrupt_unit_map.ncd interrupt_unit.ngd interrupt_unit.pcf
+par -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -w -intstyle ise -ol std -t 1 interrupt_unit_map.ncd interrupt_unit.ncd interrupt_unit.pcf
+trce -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -v 3 -s 5 -xml interrupt_unit interrupt_unit.ncd -o interrupt_unit.twr interrupt_unit.pcf -ucf cpu.ucf
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr"
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "interrupt_unit.ngc" interrupt_unit.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o interrupt_unit_map.ncd interrupt_unit.ngd interrupt_unit.pcf 
+par -w -intstyle ise -ol high -t 1 interrupt_unit_map.ncd interrupt_unit.ncd interrupt_unit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -xml interrupt_unit.twx interrupt_unit.ncd -o interrupt_unit.twr interrupt_unit.pcf 
+vhdtdtfi -lib work interrupt_unit.vhd -prj AVR -o interrupt_unit.spl -module interrupt_unit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq interrupt_unit.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.sym} 

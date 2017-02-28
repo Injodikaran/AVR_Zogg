@@ -1,0 +1,35 @@
+Running: \\fs003\nobackup\sw\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/RepositoryAvr/cpu_tb_isim_beh.exe -prj D:/RepositoryAvr/cpu_tb_beh.prj work.cpu_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/RepositoryAvr/status_register.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/sequencer.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/registers.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/progmem.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/instruction_register.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/alu.vhd" into library work
+Parsing VHDL file "D:/RepositoryAvr/cpu.vhf" into library work
+Parsing VHDL file "D:/RepositoryAvr/cpu_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity instruction_register [instruction_register_default]
+Compiling architecture behavioral of entity ProgMemSimul [\ProgMemSimul(16,8)\]
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture behavioral of entity sequencer [sequencer_default]
+Compiling architecture behavioral of entity status_register [status_register_default]
+Compiling architecture behavioral of entity cpu [cpu_default]
+Compiling architecture behavioral of entity cpu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 21 VHDL Units
+Built simulation executable D:/RepositoryAvr/cpu_tb_isim_beh.exe
+Fuse Memory Usage: 52976 KB
+Fuse CPU Usage: 468 ms

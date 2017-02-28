@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Feb 20 08:14:53 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clock" LOCATE = SITE "L16" LEVEL 1;
+COMP "reset" LOCATE = SITE "R18" LEVEL 1;
+SCHEMATIC END;
+

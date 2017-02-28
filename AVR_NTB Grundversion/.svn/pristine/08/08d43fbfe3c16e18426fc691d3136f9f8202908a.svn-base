@@ -1,0 +1,12 @@
+[Inputs]
+reset
+clock
+carry_in
+zero_in
+negative_in
+=instruction[15:0]=
+[Outputs]
+carry_out
+zero_out
+negative_out
+[BiDir]

@@ -1,0 +1,8 @@
+xst -ise "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.xst" -ofn "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.syr"
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.syr" 
+vhdtdtfi -lib work status_register.vhd -prj AVR -o status_register.spl -module status_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq status_register.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/status_register.sym} 
+vhdtdtfi -lib work status_register.vhd -prj AVR -o status_register.spl -module status_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq status_register.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/status_register.sym} 

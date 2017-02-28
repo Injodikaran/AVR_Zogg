@@ -1,0 +1,8 @@
+[Inputs]
+reset
+clock
+=instruction[15:0]=
+[Outputs]
+[BiDir]
+=data_inout[7:0]=
+=Px[7:0]=

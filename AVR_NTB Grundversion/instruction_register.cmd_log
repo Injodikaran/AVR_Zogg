@@ -1,0 +1,8 @@
+vhdtdtfi -lib work instruction_register.vhd -prj AVR -o instruction_register.spl -module instruction_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq instruction_register.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/instruction_register.sym} 
+vhdtdtfi -lib work instruction_register.vhd -prj AVR -o instruction_register.spl -module instruction_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq instruction_register.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/instruction_register.sym} 
+vhdtdtfi -lib work instruction_register.vhd -prj AVR -o instruction_register.spl -module instruction_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq instruction_register.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/instruction_register.sym} 
+vhdtdtfi -lib work instruction_register.vhd -prj AVR -o instruction_register.spl -module instruction_register -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq instruction_register.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/instruction_register.sym} 

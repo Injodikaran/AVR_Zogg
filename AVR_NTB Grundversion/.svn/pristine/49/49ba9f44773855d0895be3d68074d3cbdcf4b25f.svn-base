@@ -1,0 +1,11 @@
+[Inputs]
+carry_flag_in
+=data_d_in[7:0]=
+=data_r_in[7:0]=
+=instruction[15:0]=
+[Outputs]
+c_flag_out
+z_flag_out
+n_flag_out
+=data_out[7:0]=
+[BiDir]

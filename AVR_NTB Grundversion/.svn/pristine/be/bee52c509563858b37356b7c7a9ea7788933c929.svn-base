@@ -1,0 +1,11 @@
+[Inputs]
+reset
+clock
+GIE
+=instruction[15:0]=
+=intInput[7:0]=
+[Outputs]
+intPending
+=intVectorAddress[7:0]=
+[BiDir]
+=dio[7:0]=

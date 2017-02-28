@@ -1,0 +1,9 @@
+[Inputs]
+reset
+clock
+=reg_d_in[7:0]=
+=instruction[15:0]=
+[Outputs]
+=reg_d_out[7:0]=
+=reg_r_out[7:0]=
+[BiDir]

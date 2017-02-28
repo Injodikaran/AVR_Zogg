@@ -1,0 +1,28 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.sch" sram.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/work/zogg/AVR/sram.sch" sram.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.sch" sram.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/work/zogg/AVR/sram.sch" sram.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.sch" sram.vhf
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr"
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "sram.ngc" sram.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o sram_map.ncd sram.ngd sram.pcf 
+par -w -intstyle ise -ol high -t 1 sram_map.ncd sram.ncd sram.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -xml sram.twx sram.ncd -o sram.twr sram.pcf 
+vhdtdtfi -lib work sram.vhd -prj AVR -o sram.spl -module sram -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sram.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.sym} 
+vhdtdtfi -lib work sram.vhd -prj AVR -o sram.spl -module sram -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sram.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sram.sym} 

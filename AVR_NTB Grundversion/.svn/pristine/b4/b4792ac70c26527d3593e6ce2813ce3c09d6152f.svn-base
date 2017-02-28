@@ -1,0 +1,8 @@
+vhdl isim_temp "status_register.vhd"
+vhdl isim_temp "sequencer.vhd"
+vhdl isim_temp "registers.vhd"
+vhdl isim_temp "progmem.vhd"
+vhdl isim_temp "instruction_register.vhd"
+vhdl isim_temp "alu.vhd"
+vhdl isim_temp "cpu.vhf"
+vhdl isim_temp "cpu_tb.vhd"

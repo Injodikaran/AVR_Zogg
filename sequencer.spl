@@ -1,0 +1,6 @@
+[Inputs]
+reset
+clock
+[Outputs]
+=prog_counter[7:0]=
+[BiDir]

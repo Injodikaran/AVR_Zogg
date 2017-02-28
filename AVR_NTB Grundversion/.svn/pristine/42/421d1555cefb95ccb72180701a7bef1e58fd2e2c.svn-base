@@ -1,0 +1,5 @@
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/IO_Port.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/IO_Port.syr"
+vhdtdtfi -lib work IO_Port.vhd -prj AVR -o io_port.spl -module io_port -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq io_port.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/io_port.sym} 
+vhdtdtfi -lib work IO_Port.vhd -prj AVR -o io_port.spl -module io_port -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq io_port.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/io_port.sym} 

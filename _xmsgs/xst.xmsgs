@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">95</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">aluu</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">105</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">instr_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">instruction_register</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">111</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">programmem</arg>&gt; of block &lt;<arg fmt="%s" index="4">ProgMemSimul</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">115</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">registers</arg>&gt; of block &lt;<arg fmt="%s" index="4">register_file</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">123</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sequ</arg>&gt; of block &lt;<arg fmt="%s" index="4">sequencer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%d" index="2">128</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">stat_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">status_register</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%s" index="2">128</arg>: Output port &lt;<arg fmt="%s" index="3">zero_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stat_reg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\RepositoryAvr\cpu.vhf</arg>&quot; line <arg fmt="%s" index="2">128</arg>: Output port &lt;<arg fmt="%s" index="3">negative_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">stat_reg</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<vhdl>
+	<!--xmlns="http://www.ntb.ch/inf/vhdl/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ntb.ch/inf/vhdl/vhdl.xsd" -->
+	<paths>
+		<file type="vhd">progmem.vhd</file>
+		<file type="bcode">bcode.txt</file>
+	</paths>
+	<vhdl-file>progmem.vhd</vhdl-file>
+	<bcode-file>bcode.txt</bcode-file>
+	<code type="behaivor">
+		<code-seg type="addr-width">
+			<pre-code >
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_unsigned.all, STD.textio.all;
+
+entity ProgMemSimul is
+	generic (instr_width: natural := 16;
+		address_width: natural := 
+			</pre-code>
+			<def-var-code>
+			4
+			</def-var-code>
+			<post-code>
+			);
+	Port (address : in std_logic_vector(address_width-1 downto 0);
+		instr_code_out : out std_logic_vector(instr_width-1 downto 0));
+end ProgMemSimul;
+
+architecture Behavioral of ProgMemSimul is
+			</post-code>
+		</code-seg>
+		<code-seg type="bcode">
+			<pre-code >
+			begin
+	
+		init: process is
+		subtype instr_code is std_logic_vector(instr_width-1 downto 0);
+		file prog: text;
+		type ProgramMemory is
+		array (natural range 0 to 2**address'length - 1) of instr_code;
+		variable mem: ProgramMemory;
+		variable index: natural;
+		variable instr: bit_vector(instr_width-1 downto 0);
+		variable ILine: Line;
+	
+	begin
+	-- load content from program file
+		file_open(prog, "
+			</pre-code>
+			<def_var-code>
+			</def_var-code>
+			<post-code>
+			", READ_MODE);
+		index := 0;
+		while not endfile(prog) loop
+		readline(prog, ILine);
+		read(ILine, instr);
+		mem(index) := to_stdlogicvector(instr);
+		index := index + 1;
+	end loop;
+
+	-- respond to rom accesses
+	loop
+		instr_code_out &lt;= mem(conv_integer(address));
+		wait until address'event;
+	end loop;
+	end process init;
+end Behavioral;
+			</post-code>
+		</code-seg>
+	</code>
+	<code type="synthesis">
+		<code-seg type="addr-width">
+			<pre-code >
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_unsigned.all;
+
+entity ProgMemSimul is
+	generic (instr_width: natural := 16;
+		address_width: natural := 
+			</pre-code>
+			<def-var-code>
+			4
+			</def-var-code>
+			<post-code>
+			);
+	Port (address : in std_logic_vector(address_width-1 downto 0);
+		instr_code_out : out std_logic_vector(instr_width-1 downto 0));
+end ProgMemSimul;
+
+architecture Behavioral of ProgMemSimul is
+			</post-code>
+		</code-seg>
+		<code-seg type="bcode">
+			<pre-code >
+begin
+	process (address) is
+	subtype instr_code is std_logic_vector(instr_width-1 downto 0);
+	type ProgramMemory is array (natural range 0 to 2**address'length - 1) of instr_code;
+	constant mem: ProgramMemory:=(
+			</pre-code>
+			<post-code>
+,others => (others => '0'));
+		
+	begin
+		instr_code_out &lt;= mem(conv_integer(address));
+	end process;
+end Behavioral;
+			</post-code>
+		</code-seg>
+	</code>
+</vhdl>

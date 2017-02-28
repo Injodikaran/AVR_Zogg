@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Unterricht\zogg\DT_RA\AVR_NTB Grundversion\cpu.ncd
+OUTFILE=X:\Unterricht\zogg\DT_RA\AVR_NTB Grundversion\cpu.bit
+FAMILY=Zynq
+PART=xc7z010-1clg400
+WORKINGDIR=X:\Unterricht\zogg\DT_RA\AVR_NTB Grundversion
+LICENSE=WebPack
+USER_INFO=178341569_0_0_322

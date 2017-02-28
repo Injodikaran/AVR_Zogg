@@ -1,0 +1,10 @@
+vhdtdtfi -lib work sequencer.vhd -prj AVR -o sequencer.spl -module sequencer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sequencer.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sequencer.sym} 
+vhdtdtfi -lib work sequencer.vhd -prj AVR -o sequencer.spl -module sequencer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sequencer.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sequencer.sym} 
+vhdtdtfi -lib work sequencer.vhd -prj AVR -o sequencer.spl -module sequencer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sequencer.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/sequencer.sym} 
+vhdtdtfi -lib work sequencer.vhd -prj AVR -o sequencer.spl -module sequencer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sequencer.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/sequencer.sym} 
+vhdtdtfi -lib work sequencer.vhd -prj AVR -o sequencer.spl -module sequencer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq sequencer.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/sequencer.sym} 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work progmem.vhd -prj AVR -o ProgMemSimul.spl -module ProgMemSimul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq ProgMemSimul.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/ProgMemSimul.sym} 

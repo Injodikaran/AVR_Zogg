@@ -1,0 +1,7 @@
+[Inputs]
+reset
+clock
+=instruction[15:0]=
+[Outputs]
+=sp[3:0]=
+[BiDir]

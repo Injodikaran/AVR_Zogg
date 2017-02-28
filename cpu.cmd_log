@@ -1,0 +1,149 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.sch" cpu.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.sch" cpu.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.sch" cpu.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.sch" cpu.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.sch" cpu.vhf
+xst -intstyle ise -ifn "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "W:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc3s200-ft256-5 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc3s200-ft256-5 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "D:/zogg_repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "D:/zogg_repository/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+sch2hdl -intstyle ise -family zynq -flat -suppress -vhdl cpu.vhf -w Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.sch 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+pin2ucf -o cpu_locked.ucf cpu.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVRCore/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.xst" -ofn "Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "D:/Unterricht/2Inf/DT/AVR_NTB/cpu.xst" -ofn "D:/Unterricht/2Inf/DT/AVR_NTB/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "D:/Unterricht/2Inf/DT/AVR_NTB/cpu.xst" -ofn "D:/Unterricht/2Inf/DT/AVR_NTB/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.xst" -ofn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.xst" -ofn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.xst" -ofn "D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.xst" -ofn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.syr" 
+xst -intstyle ise -ifn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.xst" -ofn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+xst -intstyle ise -ifn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.xst" -ofn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.xst" -ofn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.xst" -ofn "X:/Unterricht/zogg/DT_RA/AVR_NTB Grundversion/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 "cpu.ngc" cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "D:/RepositoryAvr/cpu.xst" -ofn "D:/RepositoryAvr/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cpu.ucf -p xc7z010-clg400-1 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf cpu.ucf 

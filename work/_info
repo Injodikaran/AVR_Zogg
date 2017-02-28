@@ -1,0 +1,719 @@
+m255
+K3
+13
+cModel Technology
+dW:\2Inf\DT\AVR Core\Zogg_Version\NTB_AVR\AVR
+Ealu
+Z0 w1271671789
+Z1 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z2 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dD:\backup\DT\AVR Core\Zogg_Version\NTB_AVR\AVR
+Z5 8alu.vhd
+Z6 Falu.vhd
+l0
+L6
+VSodX67<9Lff7G<0adkDQd1
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+DE work alu SodX67<9Lff7G<0adkDQd1
+l24
+L20
+VUimzX51?T>5@dFN1=da:D1
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_arith
+Z12 M1 ieee std_logic_unsigned
+R8
+R9
+Eblock_ram
+Z13 w1269249738
+R3
+Z14 dD:\work\zogg\AVR
+Z15 8block_ram.vhd
+Z16 Fblock_ram.vhd
+l0
+L43
+V<AD2LmzGd^1kj=6I=@g1X0
+R7
+31
+R8
+R9
+Ablock_ram_a
+Z17 DP xilinxcorelib blkmemsp_pkg_v6_2 Rhh9hj]Lb23]0gzWI]eb<3
+Z18 DP xilinxcorelib iputils_conv ]2idAJi@_C9z3PaPfckkz2
+Z19 DP xilinxcorelib ul_utils IN@NLN>o<eo`c_A[WE4BO0
+Z20 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+Z21 DP xilinxcorelib mem_init_file_pack_v6_2 [<LfJ^:<Vk8:2<TNDo0n>1
+Z22 DE xilinxcorelib blkmemsp_v6_2 ndR]3Z7JHGGdW;dGUdC530
+R3
+DE work block_ram <AD2LmzGd^1kj=6I=@g1X0
+l100
+L53
+VfYhVJH=l;OacXf7O<i@@C0
+R7
+31
+Z23 M6 ieee std_logic_1164
+Z24 M5 xilinxcorelib mem_init_file_pack_v6_2
+Z25 M4 std textio
+Z26 M3 xilinxcorelib ul_utils
+Z27 M2 xilinxcorelib iputils_conv
+Z28 M1 xilinxcorelib blkmemsp_pkg_v6_2
+R8
+R9
+Eblock_ram_64k
+Z29 w1269272178
+R3
+R14
+Z30 8block_ram_64k.vhd
+Z31 Fblock_ram_64k.vhd
+l0
+L43
+V]WPA^HhTHBSgc:9i5T7_11
+R7
+31
+R8
+R9
+Ablock_ram_64k_a
+R17
+R18
+R19
+R20
+R21
+R22
+R3
+DE work block_ram_64k ]WPA^HhTHBSgc:9i5T7_11
+l100
+L53
+Vb:@MbUm9HAVAKiT;4P<lR1
+R7
+31
+R23
+R24
+R25
+R26
+R27
+R28
+R8
+R9
+Eblock_ram_8192
+Z32 w1269363086
+R3
+R4
+Z33 8D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/block_ram_8192.vhd
+Z34 FD:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/block_ram_8192.vhd
+l0
+L43
+VFbW8OZFYCNN6e8E:mG[h>3
+R7
+32
+Z35 o-work work -O0
+R9
+Ablock_ram_8192_a
+R17
+R18
+R19
+R20
+R21
+R22
+R3
+DE work block_ram_8192 FbW8OZFYCNN6e8E:mG[h>3
+l100
+L53
+VAOc]Z[5_fWa];8^03H8Gn3
+R7
+32
+R23
+R24
+R25
+R26
+R27
+R28
+R35
+R9
+Ecpu
+Z36 w1273051785
+Z37 DP unisim vcomponents LleKR0SczfnVz2QDcaQZM1
+Z38 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R3
+R4
+Z39 8cpu.vhf
+Z40 Fcpu.vhf
+l0
+L28
+V0bLWbPJ=oeZnmURgB99Y32
+R7
+31
+R8
+R9
+Abehavioral
+R37
+R38
+R3
+DE work cpu 0bLWbPJ=oeZnmURgB99Y32
+l155
+L35
+V8eIV5^FSDXFom8=VDX[Gd2
+R7
+31
+R10
+M2 ieee numeric_std
+M1 unisim vcomponents
+R8
+R9
+Ecpu_tb_1
+Z41 w1273047638
+R1
+R2
+R20
+Z42 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+R38
+R3
+R37
+R4
+Z43 8cpu_tb_1.vhw
+Z44 Fcpu_tb_1.vhw
+l0
+L30
+V7>4D]]36cJHLOX5O]EM552
+R7
+31
+R8
+R9
+Atestbench_arch
+R1
+R2
+R20
+R42
+R38
+R3
+R37
+DE work cpu_tb_1 7>4D]]36cJHLOX5O]EM552
+l54
+L33
+VN9@?:OZJ7Kzm8H`ZKJ7?:3
+R7
+31
+Z45 M7 unisim vcomponents
+R23
+Z46 M5 ieee numeric_std
+Z47 M4 ieee std_logic_textio
+Z48 M3 std textio
+R11
+R12
+R8
+R9
+Ecpu_tb_2
+Z49 w1273041583
+R1
+R2
+R20
+R42
+R38
+R3
+R37
+R4
+Z50 8cpu_tb_2.vhw
+Z51 Fcpu_tb_2.vhw
+l0
+L30
+VZE?f1KEk:C<b<LP3aU`C]0
+R7
+31
+R8
+R9
+Atestbench_arch
+R1
+R2
+R20
+R42
+R38
+R3
+R37
+DE work cpu_tb_2 ZE?f1KEk:C<b<LP3aU`C]0
+l54
+L33
+V]h=jAhV435TQjoh0fbjIN3
+R7
+31
+R45
+R23
+R46
+R47
+R48
+R11
+R12
+R8
+R9
+Einstruction_register
+Z52 w1273049902
+R1
+R2
+R3
+R4
+Z53 8instruction_register.vhd
+Z54 Finstruction_register.vhd
+l0
+L6
+ViL75[0heS1MU1>^]_DS>c0
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work instruction_register iL75[0heS1MU1>^]_DS>c0
+l22
+L20
+VSLo9HSP@eBEUjQh1^aWKO1
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Einterrupt_unit
+Z55 w1273058225
+R1
+R2
+R3
+R4
+Z56 8D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.vhd
+Z57 FD:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/interrupt_unit.vhd
+l0
+L6
+V]TQ`1P_BLDgi[^z<eiTP13
+R7
+32
+R35
+R9
+Abehavioral
+R1
+R2
+R3
+Z58 DE work interrupt_unit ]TQ`1P_BLDgi[^z<eiTP13
+l27
+L21
+Z59 VoT]BiQ?Zgi;JOAHGV^RKc0
+R7
+32
+R10
+R11
+R12
+R35
+R9
+Eio_port
+Z60 w1269457286
+R1
+R2
+R3
+R4
+Z61 8IO_Port.vhd
+Z62 FIO_Port.vhd
+l0
+L6
+V_kNHS6c32nUOBbPbS6ih71
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work io_port _kNHS6c32nUOBbPbS6ih71
+l25
+L21
+V]dOZL^0doFUfU:3H2C^zS1
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Eio_port_tb
+Z63 w1268214484
+R20
+R42
+R1
+R2
+R3
+R4
+Z64 8io_port_tb.vhw
+Z65 Fio_port_tb.vhw
+l0
+L27
+VNj0U5]KTN2QXUaW;0ZRMD3
+R7
+31
+R8
+R9
+Atestbench_arch
+R20
+R42
+R1
+R2
+R3
+DE work io_port_tb Nj0U5]KTN2QXUaW;0ZRMD3
+l53
+L30
+VD7OIO8f<afRCV=]8Eh@F23
+R7
+31
+Z66 M5 ieee std_logic_1164
+Z67 M4 ieee std_logic_arith
+Z68 M3 ieee std_logic_unsigned
+Z69 M2 ieee std_logic_textio
+Z70 M1 std textio
+R8
+R9
+Eprogmemsimul
+Z71 w1271851657
+R2
+R1
+R3
+R4
+Z72 8progmem.vhd
+Z73 Fprogmem.vhd
+l0
+L5
+V3B?K:J]C8DG;JCREZVBaC1
+R7
+31
+R8
+R9
+Abehavioral
+R2
+R1
+R3
+DE work progmemsimul 3B?K:J]C8DG;JCREZVBaC1
+l13
+L12
+VJ[O?ahT61PkE:J@8<4kCk2
+R7
+31
+R10
+M2 ieee std_logic_unsigned
+Z74 M1 ieee std_logic_arith
+R8
+R9
+Eprogram_memory
+Z75 w1269954117
+R20
+R42
+R1
+R2
+R3
+R4
+Z76 8progmemsimul.vhd
+Z77 Fprogmemsimul.vhd
+l0
+L9
+VSYohHV^7j@k8g6>3G0LjF0
+R7
+31
+R8
+R9
+Abehavioral
+R20
+R42
+R1
+R2
+R3
+DE work program_memory SYohHV^7j@k8g6>3G0LjF0
+l23
+L16
+VQ:a=M7_iZ8SdRVTDkZH]M0
+R7
+31
+R66
+R67
+R68
+R69
+R70
+R8
+R9
+Aa1
+R20
+R42
+R1
+R2
+R3
+DE work program_memory mEXd2zbzBeD:HM<bbjo8E0
+l23
+L16
+VgL@_9_eS@mN[<:70MWhi31
+R7
+31
+R66
+R67
+R68
+R69
+R70
+R8
+R9
+w1268753262
+R14
+Eregister_file
+Z78 w1272978590
+R1
+R2
+R3
+R4
+Z79 8registers.vhd
+Z80 Fregisters.vhd
+l0
+L6
+VcE;<D?LWo@H_ZU1mU=lF83
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work register_file cE;<D?LWo@H_ZU1mU=lF83
+l34
+L23
+V2[LDKiDGhh`zRHK1og7Ia2
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Esequencer
+Z81 w1273050597
+R1
+R2
+R3
+R4
+Z82 8sequencer.vhd
+Z83 Fsequencer.vhd
+l0
+L6
+VNCoOCHgHb^n]YzGj`;OjI1
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work sequencer NCoOCHgHb^n]YzGj`;OjI1
+l29
+L24
+V5]=gcVLj3O7BeJLefQ3di2
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Esram
+Z84 w1273050480
+R1
+R2
+R3
+R4
+Z85 8sram.vhd
+Z86 Fsram.vhd
+l0
+L6
+VSaA774G5j2kD2UmjS^ijn1
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work sram SaA774G5j2kD2UmjS^ijn1
+l26
+L22
+V3K]7F;:jggIHaZU[2VZ[V3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Esram_instruction_decoder
+Z87 w1269359463
+R1
+R2
+R3
+R4
+Z88 8sram_instruction_decoder.vhd
+Z89 Fsram_instruction_decoder.vhd
+l0
+L30
+Vcdka8HT:bUPgNM13YVcE>2
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work sram_instruction_decoder cdka8HT:bUPgNM13YVcE>2
+l43
+L41
+V1bBSEobdL6hOKNa_1JR7C3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Esram_tb
+Z90 w1269414411
+R1
+R2
+R20
+R42
+R38
+R3
+R37
+R4
+Z91 8sram_tb.vhw
+Z92 Fsram_tb.vhw
+l0
+L30
+VlA7=f^3>fm3gPB7F6kQ3V3
+R7
+31
+R8
+R9
+Atestbench_arch
+R1
+R2
+R20
+R42
+R38
+R3
+R37
+DE work sram_tb lA7=f^3>fm3gPB7F6kQ3V3
+l54
+L33
+VhnmRWl73?7?N0dmNKXiLj3
+R7
+31
+R45
+R23
+R46
+R47
+R48
+R11
+R12
+R8
+R9
+Esram_tristate_buffer
+Z93 w1269267227
+R1
+R2
+R3
+R4
+Z94 8sram_io_buffer.vhd
+Z95 Fsram_io_buffer.vhd
+l0
+L30
+VCajPdMP`>G7h007MUSJ6I2
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work sram_tristate_buffer CajPdMP`>G7h007MUSJ6I2
+l38
+L36
+VaXJkS<9^T^ETVEUlY]KWg1
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Estack_pointer
+Z96 w1273050377
+R1
+R2
+R3
+R4
+Z97 8stack_pointer.vhd
+Z98 Fstack_pointer.vhd
+l0
+L6
+VeYc]Jk<=fT3aBgBa[4>U42
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work stack_pointer eYc]Jk<=fT3aBgBa[4>U42
+l19
+L15
+V5Eb11?9dg1=A8moJ:TiWU0
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Estatus_register
+Z99 w1273040030
+R1
+R2
+R3
+R4
+Z100 8status_register.vhd
+Z101 Fstatus_register.vhd
+l0
+L6
+VA34L20?HT@3XVa92?Bm]13
+R7
+31
+R8
+R9
+Abehavioral
+R1
+R2
+R3
+DE work status_register A34L20?HT@3XVa92?Bm]13
+l28
+L24
+VLV`K;Sh2SM4B`PNPn?b4E2
+R7
+31
+R10
+R11
+R12
+R8
+R9

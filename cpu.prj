@@ -1,0 +1,7 @@
+vhdl work "status_register.vhd"
+vhdl work "sequencer.vhd"
+vhdl work "registers.vhd"
+vhdl work "progmem.vhd"
+vhdl work "instruction_register.vhd"
+vhdl work "alu.vhd"
+vhdl work "cpu.vhf"

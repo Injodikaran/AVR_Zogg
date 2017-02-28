@@ -1,0 +1,10 @@
+[Inputs]
+reset
+clock
+=instruction[15:0]=
+=address[15:0]=
+=sp[3:0]=
+=XYZ_Address[15:0]=
+[Outputs]
+[BiDir]
+=dio[7:0]=

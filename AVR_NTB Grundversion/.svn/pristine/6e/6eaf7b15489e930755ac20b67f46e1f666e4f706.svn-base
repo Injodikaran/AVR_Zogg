@@ -1,0 +1,28 @@
+# cpu.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Wed Feb 15 14:26:17 2017
+#The following constraints were newly added
+NET "extInts<7>" LOC = Y17;
+NET "clock" LOC = L16;
+NET "PORTA<0>" LOC = V13;
+NET "PORTA<1>" LOC = W13;
+NET "PORTA<2>" LOC = T12;
+NET "PORTA<3>" LOC = V12;
+NET "PORTA<4>" LOC = U13;
+NET "PORTA<5>" LOC = T14;
+NET "PORTA<6>" LOC = T15;
+NET "PORTA<7>" LOC = R14;
+NET "nrst" LOC = T16;
+NET "extInts<0>" LOC = M14;
+NET "extInts<1>" LOC = K16;
+NET "extInts<2>" LOC = J15;
+NET "extInts<3>" LOC = M15;
+NET "extInts<4>" LOC = J16;
+NET "extInts<5>" LOC = Y16;
+NET "extInts<6>" LOC = P14;

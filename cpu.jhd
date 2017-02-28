@@ -1,0 +1,13 @@
+MODULE cpu
+	SUBMODULE alu
+		INSTANCE aluu
+	SUBMODULE instruction_register
+		INSTANCE instr_reg
+	SUBMODULE status_register
+		INSTANCE stat_reg
+	SUBMODULE sequencer
+		INSTANCE sequ
+	SUBMODULE register_file
+		INSTANCE registers
+	SUBMODULE ProgMemSimul
+		INSTANCE programmem

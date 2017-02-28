@@ -1,0 +1,21 @@
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+xst -ise "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/AVR.ise" -intstyle ise -ifn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.xst" -ofn "D:/backup/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.syr"
+vhdtdtfi -lib work registers.vhd -prj AVR -o register_file.spl -module register_file -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq register_file.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.sym} 
+vhdtdtfi -lib work registers.vhd -prj AVR -o register_file.spl -module register_file -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq register_file.spl {Y:/2Inf/DT/AVR Core/Zogg_Version/NTB_AVR/AVR/register_file.sym} 
+vhdtdtfi -lib work registers.vhd -prj AVR -o register_file.spl -module register_file -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq register_file.spl {D:/Unterricht/2Inf/DT/AVR_NTB Grundversion/register_file.sym} 
